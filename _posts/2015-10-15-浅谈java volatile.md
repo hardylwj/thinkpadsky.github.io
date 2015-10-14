@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Demo post
+title: 浅谈java volatile
 ---
 
 最近有点空闲时间，看了一下《Netty权威指南》，看到了关于volatile的一段论述：
 
-[pic1](../images/img_1/20151014163140407.png)
-[pic2](../images/img_1/20151014163231723.png)
+![pic1](../images/img_1/20151014163140407.png)
+![pic2](../images/img_1/20151014163231723.png)
 
 自己之前纠结过一段时间，这里说一下自己的理解，volatile变量作用有两方面：可见性和防止重排序。这个就不多说了，这里主要说一下volatile变量在什么情况下可以抛弃锁。
 
